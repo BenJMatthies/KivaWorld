@@ -32,7 +32,7 @@ public class RemoteControl {
         System.out.println(floorMap);
 
         System.out.println("Please enter the directions for the Kiva Robot to take.");
-        String directions = keyboardResource.getLine();
+        String directions = _keyboardResource.getLine();
         System.out.println("Directions that you typed in: " + directions);
     }
 }

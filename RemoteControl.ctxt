@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RemoteControl
+comment0.text=\r\n\ This\ is\ the\ class\ that\ controls\ Kiva's\ actions.\ Implement\ the\ <code>run()</code>\r\n\ method\ to\ deliver\ the\ pod\ and\ avoid\ the\ obstacles.\r\n\r\n\ This\ is\ starter\ code\ that\ may\ or\ may\ not\ work.\ You\ will\ need\ to\ update\ the\ code\ to\r\n\ complete\ the\ project.\r\n
+comment1.params=
+comment1.target=RemoteControl()
+comment1.text=\r\n\ Build\ a\ new\ RemoteControl.\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ The\ controller\ that\ directs\ Kiva's\ activity.\ Prompts\ the\ user\ for\ the\ floor\ map\r\n\ to\ load,\ displays\ the\ map,\ and\ asks\ the\ user\ for\ the\ commands\ for\ Kiva\ to\ execute.\r\n\r\n\ [Here's\ the\ method\ you'll\ execute\ from\ within\ BlueJ.\ It\ may\ or\ may\ not\ run\ successfully\r\n\ as-is,\ but\ you'll\ definitely\ need\ to\ add\ more\ to\ complete\ the\ project.]\r\n
+numComments=3
