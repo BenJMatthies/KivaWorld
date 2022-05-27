@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TesterUtilities
+comment1.params=a\ b
+comment1.target=boolean\ sameLocation(edu.duke.Point,\ edu.duke.Point)
+comment2.params=testName\ actualState\ expectedLocation\ expectedDirection\ expectedCarry\ expectedDropped
+comment2.target=void\ verifyKivaState(java.lang.String,\ Kiva,\ edu.duke.Point,\ FacingDirection,\ boolean,\ boolean)
+numComments=3
