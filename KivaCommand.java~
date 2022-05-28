@@ -2,8 +2,8 @@
 /**
  * Write a description of KivaCommand here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author BENJMATT
+ * @version 05/2022
  */
 public enum KivaCommand {
 
@@ -22,6 +22,6 @@ public enum KivaCommand {
     
     public char getDirectionKey()
     {
-        
+        return this.directionKey;
     }
 }

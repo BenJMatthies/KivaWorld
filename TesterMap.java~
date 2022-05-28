@@ -5,14 +5,14 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public static class TesterMap {
+public class TesterMap {
 
     private static String defaultLayout = ""
     + "-------------\n"
     + "        P   *\n"
     + "   **       *\n"
     + "   **       *\n"
-    + "  K       D *\n"
+    + "  K|      D *\n"
     + " * * * * * **\n"
     + "-------------\n";
     

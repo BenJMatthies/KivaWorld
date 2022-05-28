@@ -1,9 +1,9 @@
 
 /**
- * Write a description of KivaCommand here.
+ * Enumeration that defines the commands that are processed by <code>Kiva.move()</code>.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author BENJMATT
+ * @version 05/2022
  */
 public enum KivaCommand {
 

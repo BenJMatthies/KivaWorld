@@ -9,38 +9,10 @@ import edu.duke.Point;
 
 public class KivaMoveTester {
 
-    public void testIllegalMove()
-    {
-        Kiva testKiva = new Kiva(TesterMap.getTesterMap());
-        
-        //move off the map left
-        testOffMapTop(testKiva);
-        //testOffMapLeft(testKiva);
-        
-    }
-    
-    private void testOffMapTop(Kiva testKiva)
-    {
-        for(int i=0; i<4; i++)
-        {
-            testKiva.move(KivaCommand.FORWARD);
-            TesterUtilities.verifyKivaState("Up Off Map", testKiva, new Point(2,3-i), FacingDirection.UP, false, false);
-        }
-    }
-    
-    private void testOffMapLeft(Kiva testKiva)
-    {
-        //move off the map left
-        testKiva.move(KivaCommand.TURN_LEFT);
-        for(int i=0; i<3; i++)
-        {
-            testKiva.move(KivaCommand.FORWARD);
-        }
-    }
+    Kiva testKiva = new Kiva(TesterMap.getTesterMap());
     
     public void testMoveAndTurn()
     {
-        Kiva testKiva = new Kiva(TesterMap.getTesterMap());
         boolean f = false;
         
         //MOVE FORWARD FROM UP
@@ -109,6 +81,12 @@ public class KivaMoveTester {
         //drop the pod and verify state
         testKiva2.move(KivaCommand.DROP);
         TesterUtilities.verifyKivaState("Drop Pod", testKiva2, new Point(9,4), FacingDirection.DOWN, false, true);
+    }
+    
+    public void testMotorLifetime()
+    {
+        TesterUtilities.moveByString("FFFRFFFFFFTRFFFLFFD", testKiva);
+        System.out.println(testKiva.getMotorLifetime());
     }
     
     private Kiva moveToPod(Kiva testKiva)

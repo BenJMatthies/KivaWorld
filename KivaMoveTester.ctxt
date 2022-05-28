@@ -1,17 +1,13 @@
 #BlueJ class context
 comment0.target=KivaMoveTester
 comment1.params=
-comment1.target=void\ testIllegalMove()
-comment2.params=testKiva
-comment2.target=void\ testOffMapTop(Kiva)
-comment3.params=testKiva
-comment3.target=void\ testOffMapLeft(Kiva)
-comment4.params=
-comment4.target=void\ testMoveAndTurn()
-comment5.params=
-comment5.target=void\ testTakeAndDrop()
-comment6.params=testKiva
-comment6.target=Kiva\ moveToPod(Kiva)
-comment7.params=testKiva
-comment7.target=Kiva\ moveToDropZone(Kiva)
-numComments=8
+comment1.target=void\ testMoveAndTurn()
+comment2.params=
+comment2.target=void\ testTakeAndDrop()
+comment3.params=
+comment3.target=void\ testMotorLifetime()
+comment4.params=testKiva
+comment4.target=Kiva\ moveToPod(Kiva)
+comment5.params=testKiva
+comment5.target=Kiva\ moveToDropZone(Kiva)
+numComments=6

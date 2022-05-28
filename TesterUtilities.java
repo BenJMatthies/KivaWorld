@@ -64,5 +64,29 @@ public class TesterUtilities {
         
         System.out.println("");
     }
-        
+    
+    public static void moveByString(String pathInput, Kiva kiva)
+    {
+        for(char c : pathInput.toUpperCase().toCharArray())
+        {
+            switch(c)
+            {
+                case 'F':
+                    kiva.move(KivaCommand.FORWARD);
+                    break;
+                case 'L':
+                    kiva.move(KivaCommand.TURN_LEFT);
+                    break;
+                case 'R':
+                    kiva.move(KivaCommand.TURN_RIGHT);
+                    break;
+                case 'T':
+                    kiva.move(KivaCommand.TAKE);
+                    break;
+                case 'D':
+                    kiva.move(KivaCommand.DROP);
+                    break;
+            }
+        }
+    }
 }
